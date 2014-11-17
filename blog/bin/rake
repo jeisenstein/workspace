@@ -1,4 +1,4 @@
-bin/rake db:migrate RAILS_ENV=test#!/usr/bin/env ruby
+#!/usr/bin/env ruby
 begin
   load File.expand_path("../spring", __FILE__)
 rescue LoadError
