@@ -1,0 +1,3 @@
+# CS 270 - Fall 2014 - QR Code Scavenger Hunt - Phase 5
+
+Clean up phase...

@@ -1,0 +1,6 @@
+== README
+
+Simple qr code app that. Root routes to a plain webpage with qr code that displays "hello world" when scanned.
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.

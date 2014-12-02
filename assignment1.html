@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<head>
+
+<style type="text/css" media="screen">
+
+/* I wrote the code for this with the help of css tutorials. The only characters that I copied verbatim were the background gradient kits for specific web browsers. */
+
+ul {
+
+ padding: 10px;  
+ 
+ list-style:none;
+
+ }
+
+li {
+
+ float:left; 
+ 
+ position:relative; 
+
+ margin-top: 5px;
+ 
+ margin-bottom: 10px; 
+
+ margin-right: 5px;
+
+ margin-left: 5px;
+ 
+ display:block;
+ 
+ border-style:inset;
+
+ box-shadow: 1px 1px 2px 1px;
+
+ }
+
+li ul {
+
+ display:none;
+
+ position:absolute;
+ 
+ }
+
+li:hover ul{
+    
+ display:block;
+
+ }
+
+ul li { 
+
+ width: 150px; 
+
+ height: 50px; 
+
+ text-align: center; 
+
+ font-size: 30px; 
+
+ line-height: 50px;
+
+ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00AEE7), to(#0086B2)); 
+
+ background: -moz-linear-gradient(19% 75% 90deg,#00AEE7, #0086B2); 
+
+ border: solid 2px black;  
+
+ -moz-border-radius: 2px; 
+
+ -webkit-border-radius: 2px; 
+
+ border-radius: 2px; 
+
+ -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700))
+
+ } 
+
+a { 
+
+ text-decoration: none; 
+
+ color: white; 
+
+ font-family: georgia;
+
+ font-style: italic;
+
+ text-shadow: 2px 2px black;
+
+ } 
+
+li:hover { 
+
+ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6DB700), to(#99CF00)); 
+
+ background: -moz-linear-gradient(19% 75% 90deg,#99CF00, #6DB700); 
+
+ } 
+
+</style>
+
+
+<ul>
+
+  <li><a href="#">Home</a></li>
+  
+  <li><a href= "#">About</a>
+
+      <ul>
+      
+      <li><a href="#">Staff</a></li>
+      
+      <li><a href="#">History</a></li>
+      
+      <li><a href="#">Press</a></li>
+      
+      </ul>
+
+    </li>
+  
+  <li><a href="#">Media</a>
+
+      <ul>
+
+      
+      <li><a href="#">Blog</a></li>
+      
+      <li><a href="#">Audio</a></li>
+      
+      <li><a href="#">Video</a></li>
+      
+      </ul>
+     
+     </li>
+  
+  <li><a href="#">Contact</a></li>
+
+</ul>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<!--
+GRADE: 9/10
+COMMENTS: put your <ul> element inside the body, not the head section!
+-->
