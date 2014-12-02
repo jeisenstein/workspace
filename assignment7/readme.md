@@ -1,3 +1,1 @@
-# CS 270 - Fall 2014 - QR Code Scavenger Hunt - Phase 5
-
-Clean up phase...
+This is the app designed according to assignment 7 and continually updated as classroom discussion progresses.
