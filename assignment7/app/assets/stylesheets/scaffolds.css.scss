@@ -2,7 +2,7 @@ body {
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -21,7 +21,7 @@ pre {
 a {
   color: #000;
   &:visited {
-    color: #666;
+    color: #000000;
   }
   &:hover {
     color: #fff;
@@ -66,4 +66,44 @@ div {
     font-size: 12px;
     list-style: square;
   }
+}
+coolheader {
+  margin: 1em 0 0.5em 0;
+  color: white;
+  font-weight: normal;
+  font-family: tahoma;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px black;
+  background-color: #9DD929;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.02, #7bc043), color-stop(0.51, #8bc642), color-stop(0.87, #9ed929));
+  border-radius: 5px;
+  padding: 10px;
+}
+h3 {
+  margin: 1em 0 0.5em 0;
+  color: #343434;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: tahoma;
+  text-transform: uppercase;
+  text-shadow: 3px 0px 3px lightgrey;
+  font-style: italic;
+  
+}
+button {
+  margin: 1em 0 0.5em 0;
+  color: white;
+  font-weight: normal;
+  font-family: tahoma;
+  font-size: 25px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px white;
+  background-color: #9DD929;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.02, #7bc043), color-stop(0.51, #8bc642), color-stop(0.87, #9ed929));
+  border-radius: 5px;
+  padding: 10px;
 }
